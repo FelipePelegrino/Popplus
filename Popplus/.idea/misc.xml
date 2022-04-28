@@ -3,8 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/home_selector.xml" value="0.2375" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/ic_home_selected.xml" value="0.1" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/ic_list.xml" value="0.1" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/ic_list_selected.xml" value="0.1" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/ic_popcorn.xml" value="0.1" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/ic_popcorn_selected.xml" value="0.1" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/ic_search_selected.xml" value="0.1" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/ic_user.xml" value="0.1" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/ic_user_selected.xml" value="0.1" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/pop_selector.xml" value="0.2375" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/search_selector.xml" value="0.2375" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/selector_list.xml" value="0.2375" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/drawable/selector_user.xml" value="0.2375" />
         <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
         <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/layout/popplus_bottom_navigation.xml" value="0.36666666666666664" />
+        <entry key="..\:/projetos_pessoais/Popplus/Popplus/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
