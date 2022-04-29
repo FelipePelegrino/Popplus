@@ -10,7 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Popplus">
         <activity
-            android:name=".ui.HomeActivity"
+            android:name=".ui.user.UserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.popcorn.PopcornActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mylists.MyListsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.search.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.HomeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
