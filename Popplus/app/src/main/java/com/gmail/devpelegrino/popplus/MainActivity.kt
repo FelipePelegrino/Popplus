@@ -1,17 +1,41 @@
 package com.gmail.devpelegrino.popplus
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.constraintlayout.widget.ConstraintLayout
-import com.gmail.devpelegrino.popplus.ui.home.HomeActivity
+import com.google.android.material.navigation.NavigationBarView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        findViewById<ConstraintLayout>(R.id.mainCv).setOnClickListener {
-            startActivity(Intent(this, HomeActivity::class.java))
+        setBottomNavigation()
+    }
+
+    private fun setBottomNavigation() {
+        findViewById<NavigationBarView>(R.id.bottomNavigationView).setOnItemSelectedListener { item ->
+            when(item.itemId) {
+                R.id.menuHomeItem -> {
+
+                    true
+                }
+                R.id.menuSearchItem -> {
+
+                    true
+                }
+                R.id.menuListItem -> {
+
+                    true
+                }
+                R.id.menuPopcornItem -> {
+
+                    true
+                }
+                R.id.menuUserItem -> {
+
+                    true
+                }
+                else -> false
+            }
         }
     }
 }
