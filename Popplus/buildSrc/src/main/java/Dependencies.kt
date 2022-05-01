@@ -12,6 +12,8 @@ object Dependencies {
     val appCompat by lazy { "androidx.appcompat:appcompat:${Versions.appCompat}" }
     val materialDesign by lazy { "com.google.android.material:material:${Versions.material}" }
     val constraintLayout by lazy { "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}" }
+    val navigationFragment by lazy { "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}" }
+    val navigationUi by lazy { "androidx.navigation:navigation-ui-ktx:${Versions.navigation}" }
 
     //testImplementation
     val junit by lazy { "junit:junit:${Versions.jUnit}" }
@@ -19,4 +21,5 @@ object Dependencies {
     //androidTestImplementation
     val testExt by lazy { "androidx.test.ext:${Versions.testExt}" }
     val testEspresso by lazy { "androidx.test.espresso:espresso-core:${Versions.testEspresso}" }
+    val testNavigation by lazy { "androidx.navigation:navigation-testing:${Versions.navigation}" }
 }
