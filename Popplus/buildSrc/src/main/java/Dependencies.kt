@@ -14,6 +14,7 @@ object Dependencies {
     val constraintLayout by lazy { "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}" }
     val navigationFragment by lazy { "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}" }
     val navigationUi by lazy { "androidx.navigation:navigation-ui-ktx:${Versions.navigation}" }
+    val legacySupport by lazy { "androidx.legacy:legacy-support-v4:${Versions.legacySupport}" }
 
     //testImplementation
     val junit by lazy { "junit:junit:${Versions.jUnit}" }

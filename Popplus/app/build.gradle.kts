@@ -43,6 +43,7 @@ dependencies {
     implementation(Dependencies.constraintLayout)
     implementation(Dependencies.navigationFragment)
     implementation(Dependencies.navigationUi)
+    implementation(Dependencies.legacySupport)
 
     testImplementation(Dependencies.junit)
 

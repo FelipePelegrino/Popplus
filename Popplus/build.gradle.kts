@@ -3,7 +3,6 @@ buildscript {
     extra.apply{
         set("kotlinVersion", Versions.kotlin)
     }
-    val supportLibraryVersion = extra.get("kotlinVersion") as String
 
     repositories {
         google()
